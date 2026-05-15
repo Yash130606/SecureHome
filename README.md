@@ -148,7 +148,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Developer
 
-### Yash Patil
+### Yash Baraskar
 B.Tech Electronics & Telecommunication  
 Focused on Embedded Systems + AI/ML + Generative AI
 
