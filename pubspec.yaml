@@ -1,0 +1,41 @@
+name: securehome
+description: Professional Home Security Camera App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  smooth_page_indicator: ^1.2.0+3
+  cached_network_image: ^3.4.1
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.2.0
+  # Networking - ADD THESE
+  http: ^1.2.1
+  image_picker: ^1.1.2
+  
+  # Storage - ADD THESE
+  flutter_secure_storage: ^9.0.0
+  # ADD THIS for video streaming
+  webview_flutter: ^4.4.2
+  # ADD THIS
+  local_auth: ^2.1.8
+  firebase_messaging: ^15.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
